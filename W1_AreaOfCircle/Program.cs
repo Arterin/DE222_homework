@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Week1Homework
+namespace W1_AreaOfCircle
 {
     class Program
     {
