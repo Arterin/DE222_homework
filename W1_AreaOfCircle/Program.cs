@@ -29,7 +29,7 @@ namespace W1_AreaOfCircle
         // Methods
         public double GetArea()
         {
-            Diameter = Radius * 2;
+            Diameter = Radius * Radius;
             Area = Math.Round(Diameter * Pi, 2);
             return Area;
         }
