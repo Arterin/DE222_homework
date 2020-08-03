@@ -13,7 +13,7 @@ namespace W1_AreaOfCircle
 
         public void Go()
         {
-            _circleAreaCalculator.SetRadius((decimal) 15.5);
+            _circleAreaCalculator.SetRadius(15.5M);
             var area = _circleAreaCalculator.GetArea();
             _view.Show(area);
             _view.Stop();
