@@ -3,8 +3,8 @@ namespace W2_SumOf
     public class SumOfController
     {
         private static ISumOf _sumOf;
-        private int _result;
         private readonly IView _view;
+        private int _result;
 
         public SumOfController(IView newView, ISumOf newSumOf)
         {
