@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace W2_SumOf
+﻿namespace W2_SumOf
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
-            Console.WriteLine("Hello World!");
+            var controller = new SumOfController(new ConsoleView(), new SumOf());
+            controller.Go();
         }
     }
 }
