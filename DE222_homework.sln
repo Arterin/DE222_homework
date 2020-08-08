@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W1_AreaOfCircle", "W1_AreaO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W2_SumOf", "W2_SumOf\W2_SumOf.csproj", "{7F5091DC-FB1A-47E2-AB20-2327CDBBD33C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W2_AreaOfTriangle", "W2_AreaOfTriangle\W2_AreaOfTriangle.csproj", "{D1B74503-BF6B-4FF6-AA6E-39470BB72D9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,10 @@ Global
 		{7F5091DC-FB1A-47E2-AB20-2327CDBBD33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F5091DC-FB1A-47E2-AB20-2327CDBBD33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F5091DC-FB1A-47E2-AB20-2327CDBBD33C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B74503-BF6B-4FF6-AA6E-39470BB72D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B74503-BF6B-4FF6-AA6E-39470BB72D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B74503-BF6B-4FF6-AA6E-39470BB72D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B74503-BF6B-4FF6-AA6E-39470BB72D9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
