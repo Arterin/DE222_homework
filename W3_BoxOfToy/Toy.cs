@@ -1,10 +1,10 @@
 namespace W3_BoxOfToy
 {
-    internal class Toy 
+    internal class Toy
     {
-        protected string _name;
-        protected string _color;
-        protected decimal _cost;
+        private readonly string _color;
+        private decimal _cost;
+        private readonly string _name;
 
         public Toy(string name, string color, decimal cost)
         {
@@ -15,13 +15,10 @@ namespace W3_BoxOfToy
 
         public decimal Cost
         {
-            set { _cost = value; }
+            set => _cost = value;
         }
 
-        public string Name
-        {
-            get => _name;
-        }
+        public string Name => _name;
 
         public override string ToString()
         {
