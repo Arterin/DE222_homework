@@ -6,7 +6,7 @@ namespace W3_BoxOfToy
     {
         List<Toy> toys = new List<Toy>();
 
-        private int ToyCount
+        public int ToyCount
         {
             get => toys.Count;
         }
